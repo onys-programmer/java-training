@@ -24,4 +24,24 @@ public class BankAccount {
     public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
 }
