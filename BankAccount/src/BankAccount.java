@@ -1,9 +1,9 @@
 public class BankAccount {
-    int number;
-    int balance;
-    String customerName;
-    String email;
-    int phoneNumber;
+    private int number;
+    private int balance;
+    private String customerName;
+    private String email;
+    private int phoneNumber;
 
     public void setNumber(int number) {
         this.number = number;
