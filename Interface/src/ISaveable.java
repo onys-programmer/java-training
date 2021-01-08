@@ -1,5 +1,6 @@
-public class ISaveable {
-    public String write() {
-        return state;
-    }
+import java.util.List;
+
+public interface ISaveable {
+    List<String> write();
+    void read(List<String> savedValues);
 }
