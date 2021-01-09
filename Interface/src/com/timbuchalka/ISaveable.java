@@ -1,3 +1,5 @@
+package com.timbuchalka;
+
 import java.util.List;
 
 public interface ISaveable {
