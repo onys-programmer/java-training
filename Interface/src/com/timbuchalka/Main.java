@@ -36,6 +36,10 @@ public class Main {
         loadObject(tim);
         System.out.println(tim);
 
+        ISaveable vampire = new Monster("edward", 99, 70);
+        System.out.println("Strength = " + ((Monster) vampire).getStrength());
+        saveObject(vampire);
+
     }
 
     public static ArrayList<String> readValues() {
